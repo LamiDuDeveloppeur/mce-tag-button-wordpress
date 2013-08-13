@@ -1,0 +1,12 @@
+#tag_form { font-size: 12px; color: #333}
+#tag_form  p { display: block; font-family: sans-serif; font-style: italic; color: #666}
+.box { width: 100%; float: left; clear: both; }
+.box label {margin-top: 5px;float: left; width: 80px; text-align: right; padding-right: 5px; }
+.box input {margin-top: 4px;padding:3px; width: 350px; border-radius: 4px 4px 4px 4px; border-style: solid; border-width: 1px; }
+.box input:disabled {background:#E8E8E8; border-color: #bbb}
+.box input:focus { border-color: #aaa; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1)}
+#tag_form ul { list-style: none; padding: 0; margin: 0; width: 443px; float: left; border: 1px solid #dfdfdf; height: 200px; overflow-y: scroll}
+#tag_form ul li { cursor: pointer; float: left; padding: 5px 0; width: 140px; background:#fff; border: 1px solid #dfdfdf; text-align: center}
+.actions #cancel { margin-top: 10px;width: auto; border-radius: 0;font-family: sans-serif;border: 0; background: none;float: left;border-bottom: 1px solid #ff0000; color: #ff0000;padding: 1px 2px; font-size: 11px; }
+.actions #cancel:hover {border: 0;border-bottom: 1px solid #ff0000;background: #ff0000; color: #fff; }
+.actions #insert { margin-top: 10px;font-family: sans-serif;float: right; margin-right: 10px; background-color: #21759B; background-image: linear-gradient(to bottom, #2A95C5, #21759B);border-color: #21759B #21759B #1E6A8D; box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset; color: #FFFFFF;text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); }
